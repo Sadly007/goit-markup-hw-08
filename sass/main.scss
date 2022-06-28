@@ -1,0 +1,18 @@
+@import "./utils/vars";
+@import "./base/reset";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/footer";
+@import "./layout/modal";
+
+@import "./components/btn-nav";
+@import "./components/containers";
+
+@import "./another/basic";
+@import "./another/customers";
+@import "./another/example-works";
+@import "./another/qualities";
+@import "./another/team";
+
+@import "./comand/comand";
