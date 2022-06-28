@@ -1,0 +1,12 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: calc(100% - 30px);
+    @media screen and (min-width:1200px) {
+            width: calc((100% - 30px) * 2);
+    }
+    @media screen and (min-width:1200px) {
+        width: calc((100% - 37px) * 4);
+    }
+}

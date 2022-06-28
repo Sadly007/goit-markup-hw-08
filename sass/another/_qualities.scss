@@ -5,15 +5,17 @@
 }
 
 .qualities {
-    padding-top: 94px;
-    padding-bottom: 0;
+    // padding-top: 94px;
+    // // padding-bottom: 0;
+    // padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width:1200px) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 }
 
-
-
-.qualities-team {
-    padding-bottom: 94px;
-}
 
 .qualities-item {
     width: 270px;
