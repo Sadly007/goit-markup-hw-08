@@ -1,17 +1,66 @@
 
 
 .customers-text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primery-text-color);
+    @media screen and(min-width:480px) {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primery-text-color);
+    }
+    @media screen and(min-width:1200px) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primery-text-color);
+    }
 }
 
 .customers-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    @media screen and(min-width:480px) {
+        gap: 30px;
+    }
+}
+
+.customers-item {
+    @media screen and(min-width:480px){
+        margin-right: 0px;
+        width: 210px;
+    }
+    @media screen and(min-width:768px) {
+        width: 226px;
+    }
+    @media screen and(min-width:1200px) {
+        width: 170px;
+    }
+    
+
+    &:hover, &:focus {
+        outline: 1px solid #2196F3;
+        fill: var(--accent-text-color);
+    }
+    
+    display: flex;
+    width: 170px;
+    justify-content: center;
+
+    align-items: center;
+    height: 92px;
+    outline: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 30px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+}
+
+.customers-item:last-child {
+    margin-right: 0;
 }
 
 
@@ -35,28 +84,6 @@
 }
 
 
-.customers-item {
-    &:hover, &:focus {
-        outline: 1px solid #2196F3;
-        fill: var(--accent-text-color);
-    }
-
-    display: flex;
-    width: 170px;
-    justify-content: center;
-
-    align-items: center;
-    height: 92px;
-    outline: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-right: 30px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
-
-}
-
-.customers-item:last-child {
-    margin-right: 0;
-}
 
 // .customers-item:hover,
 // .customers-item:focus {
