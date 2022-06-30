@@ -73,6 +73,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primery-text-color);
+    @media screen and(min-width:320px) and(max-width:480px){
+        padding-right: 15px;
+        padding-left: 15px;
+    }
     @media screen and(min-width:480px) and(max-width:768px) {
         text-align: center;
     }
@@ -87,4 +91,8 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
+    @media screen and(min-width:320px) and(max-width:480px) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }

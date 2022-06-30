@@ -6,6 +6,10 @@
     padding-left: 15px;
     padding-right: 15px;
     // background-color: #f5f4fa;
+    @media screen and(min-width:320px) and(max-width:480px){
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     @media screen and (min-width:480px) {
         width: 450px;
     }
@@ -26,14 +30,21 @@
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    @media screen and(min-width:320px){
+        width: calc(100% - 30px);
+    }
+    @media screen and(min-width:320px) and(max-width:4800px) {
+        margin-right: auto;
+        margin-left: auto;
+    }
     // width: calc(100% - 30px);
     @media screen and (min-width:480px) {
-        width: 450px;
+        width: calc(100%);
         margin-left: auto;
         margin-right: auto;
     }
     @media screen and (min-width:768px) {
-        width: 354px;
+        width:100%;
     }
     @media screen and (min-width:1200px) {
         width: 270px;
@@ -61,16 +72,26 @@
 
 
 .header-container {
-    width: 1170px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .footer-container {
     display: block;
     padding-right: 0;
+    @media screen and(min-width:320px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     @media screen and(min-width:480px) {
         display: flex;
         flex-wrap: wrap;
@@ -110,6 +131,10 @@
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    @media screen and (min-width:320px) and(max-width:480px){
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     @media screen and (min-width:480px) {
             width: 450px;
         }
@@ -147,11 +172,26 @@
     margin-right: auto;
 }
 
+.basic-section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .company-section {
     background-color: var(--primery-white-color);
 }
 
 .footer__section {
+    @media screen and(min-width:320px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 206px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
     @media screen and(min-width:480px) {
         display: flex;
         flex-wrap: wrap;

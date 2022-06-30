@@ -30,14 +30,19 @@
 }
 
 .team__item {
-    
+    @media screen and(min-width:320px) and(max-width:480px){
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
     
     width: 100%;
     @media screen and (min-width:768px) {
         width: calc((100% - 30px) / 2);
     }
     @media screen and (min-width:1200px) {
-        width: calc(((100% - 90px) / 4) - 7px);
+        width: calc((100% - 90px) / 4 );
     }
 }
 
@@ -130,6 +135,10 @@
 
 
 .team__img {
+    @media screen and(min-width:320px) and(max-width:4800px){
+        margin-right: auto;
+        margin-left: auto;
+    }
     @media screen and(min-width:480px){
         width: 450px;
         height: 460px;

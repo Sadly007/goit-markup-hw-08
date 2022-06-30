@@ -1,42 +1,69 @@
 
 
 .basic-list {
-    display: flex;
-    justify-content: space-between;
+    
+    @media screen and(min-width:1200px){
+        display: flex;
+        justify-content: space-between;
+    }
+    @media screen and (min-width:320px) and (max-width:1200px) {
+        display: none;
+    }
 }
 
 .basic-text {
-    margin-top: 0;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.66;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primery-text-color);
+    @media screen and (min-width:1200px) {
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.66;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primery-text-color);
+    }
+    @media screen and (min-width:320px) and (max-width:1200px) {
+        display: none;
+    }
+        
+    
 }
 
 .basic-item {
-    position: relative;
-    height: 294px;
+    @media screen and (min-width:1200px) {
+        position: relative;
+        height: 294px;
+    }
+    @media screen and (min-width:320px) and (max-width:1200px) {
+        display: none;
+    }
+    
 }
 
 .basic-item>.label {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    // height: 70px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    margin: 0;
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primery-white-color);
-
-    background: rgba(47, 48, 58, 0.8);
+    @media screen and (min-width:1200px) {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        // height: 70px;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        margin: 0;
+    
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primery-white-color);
+    
+        background: rgba(47, 48, 58, 0.8);
+    }
+    @media screen and (min-width:320px) and (max-width:768px) {
+        display: none;
+    }
+        
+        
+    
 }
