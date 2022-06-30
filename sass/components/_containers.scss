@@ -53,13 +53,23 @@
 
 .example-container {
     padding: 20px 24px;
-    margin-left: auto;
-    margin-right: auto;
+    
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: 0;
-    @media screen and (min-width:320px) and (max-width:768px) {
+    @media screen and (min-width:320px) and (max-width:480px) {
         width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @media screen and (min-width:480px) and (max-width:767px) {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        width: 304px;
+        height: 106px;
     }
 }
 
