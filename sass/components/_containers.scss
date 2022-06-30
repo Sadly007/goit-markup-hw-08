@@ -58,6 +58,9 @@
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: 0;
+    @media screen and (min-width:320px) and (max-width:768px) {
+        width: 240px;
+    }
 }
 
 .last-example-container {
