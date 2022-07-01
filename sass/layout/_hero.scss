@@ -10,16 +10,7 @@
     /*background-color: #2F303A;*/
 }
 
-.hero-container {
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #2F303A;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/bg-img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 
 .solutions-text {
     @media screen and (min-width:480px) and (max-width:768px) {

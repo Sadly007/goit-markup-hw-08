@@ -14,43 +14,44 @@
 </head>
 <body>
     <header class="page-header">
-                <div class="header-container">
-                    <div class="header-nav">
-                    <nav class="site-nav">
-                        <a href="/" lang="en" class="first-header-link  link">Web<span
-                                class="secondary-header-link link">Studio</span></a>
-                        <ul class="header-list list">
-                            <li class="header-item"><a href="" class="current current-link link">Студия</a></li>
-                            <li class="header-item"><a href="portfolio.html" class="header-link link">Портфолио</a></li>
-                            <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
-                        </ul>
-                    </nav>
+        <div class="header-container">
+            <div class="header-nav">
+                <nav class="site-nav">
+                    <a href="/" lang="en" class="first-header-link  link">Web<span
+                        class="secondary-header-link link">Studio</span></a>
                     <ul class="header-list list">
-                        <div class="proverka">
-                            <li class="header-soc-item">
-                                <div class="header-icon">
-                                    
-                                        <svg class="email-icon">
-                                            <use href="./images/icons.svg#icon-email-logo"></use>
-                                        </svg>
-                                        <a href="mailto:info@devstudio.com" class="header-email-info-link link">info@devstudio.com</a>
-                                   
-                                    
-                                </div>
-                            </li>
-                            <li class="header-soc-item">
-                                <div class="header-icon">
-                                    <svg class="phone-icon">
-                                        <use href="./images/icons.svg#icon-phone-logo" width="10"></use>
-                                    </svg>
-                                    <a href="tell:+380961111111" class="header-phone-info-link link">+38 096 111 11 11</a>
-                                </div>
-                            </li>
-                        </div>
-                        
-                    </ul> 
-                    </div>
-                </div>
+                        <li class="header-item"><a href="" class="current current-link link">Студия</a></li>
+                        <li class="header-item"><a href="portfolio.html" class="header-link link">Портфолио</a></li>
+                        <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="header-list list">
+                    <div class="proverka">
+                        <li class="header-soc-item">
+                            <div class="header-icon">
+                                <svg class="email-icon">
+                                    <use href="./images/icons.svg#icon-email-logo"></use>
+                                </svg>
+                                <a href="mailto:info@devstudio.com" class="header-email-info-link link">info@devstudio.com</a> 
+                            </div>
+                        </li>
+                        <li class="header-soc-item">
+                            <div class="header-icon">
+                                <svg class="phone-icon">
+                                    <use href="./images/icons.svg#icon-phone-logo" width="10"></use>
+                                </svg>
+                                <a href="tell:+380961111111" class="header-phone-info-link link">+38 096 111 11 11</a>
+                            </div>
+                        </li>
+                    </div>   
+                </ul> 
+            </div>
+            <button type="button" class="menu-open-btn">
+                <svg class="modal-icon">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
+        </div>
     </header>
     <main class="main">
         <div class="hero-container">
@@ -129,15 +130,15 @@
                     Чем мы занимаемся
                 </h2>
                 <ul class="basic-list list">
-                    <li lang="en" class="basic-item">
+                    <li lang="en" class="basic-item-one">
                         <img src="./images/img-1.jpg" alt="Back-End разработка" width="370" height="294">
                         <p class="label">Десктопные приложения</p>
                     </li>
-                    <li lang="en" class="basic-item">
+                    <li lang="en" class="basic-item-two">
                         <img src="./images/img-2.jpg" alt="Front-End разработка" width="370" height="294">
                         <p class="label">Мобильные приложения</p>
                     </li>
-                    <li class="basic-item">
+                    <li class="basic-item-tree">
                         <img src="./images/img-3.jpg" alt="разработка дизайна" width="370" height="294">
                         <p class="label">Дизайнерские решения</p>
                     </li>
@@ -149,7 +150,7 @@
                 <h2 class="team__text team__text--dark">Наша команда</h2>
                 <ul class="team__list list">
                     <li class="team__item">
-                        <img src="./images/Ihor.jpg" alt="Ihor" width="270" height="260" class="team__img">
+                        <img src="./images/Ihor.jpg" alt="Ihor" width="270" height="260" class="team__img-one">
                         <div class="team-container">
                             <h3 class="team__top-text team__top-text--dark">
                                 Игорь Демьяненко
@@ -190,7 +191,7 @@
                         </div>
                     </li>
                     <li class="team__item ">
-                        <img src="./images/Olha.jpg" alt="Olha" width="270" height="260" class="team__img">
+                        <img src="./images/Olha.jpg" alt="Olha" width="270" height="260" class="team__img-two">
                         <div class="team-container">
                             <h3 class="team__top-text team__top-text--dark">
                                 Ольга Репина
@@ -229,7 +230,7 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./images/Nicolai.jpg" alt="Nicolai" width="270" height="260" class="team__img">
+                        <img src="./images/Nicolai.jpg" alt="Nicolai" width="270" height="260" class="team__img-tree">
                         <div class="team-container">
                             <h3 class="team__top-text team__top-text--dark">
                                 Николай Тарасов
@@ -268,7 +269,7 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./images/Mikhail.jpg" alt="Mikhail" width="270" height="260" class="team__img">
+                        <img src="./images/Mikhail.jpg" alt="Mikhail" width="270" height="260" class="team__img-four">
                         <div class="team-container">
                             <h3 class="team__top-text team__top-text--dark">
                                 Михаил Ермаков

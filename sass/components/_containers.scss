@@ -16,8 +16,30 @@
     @media screen and (min-width:768px) {
         width: 738px;
     }
-    @media screen and (min-width:1200px) {
+    @media screen and (min-width:1199px) {
         width: 1170px;
+    }
+}
+
+.hero-container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url('../images/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-container {
+        background-color: #2F303A;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/hero-bg-2x.jpg');
     }
 }
 
@@ -188,6 +210,9 @@
 .basic-section {
     padding-top: 0px;
     padding-bottom: 0px;
+    @media screen and (min-width:1201px) {
+        padding-bottom: 94px;
+    }
 }
 
 .company-section {
@@ -230,5 +255,16 @@
         width: 206px;
         height: 80px;
         margin-right: 93px;
+    }
+}
+
+.portfolio-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    @media screen and (min-width:320px) and (max-width:1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }

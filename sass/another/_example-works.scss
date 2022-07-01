@@ -35,6 +35,9 @@
         justify-content: flex-start;
         gap: 30px;
     }
+    @media screen and (min-width:320px) and (max-width:767px) {
+       
+    }
 }
 
 .example-item:nth-child(2n) {
@@ -81,7 +84,7 @@
 
 
 
-.example-img {
+.example-img-one {
     display: block;
     @media screen and (min-width:320px) and (max-width:480px){
         width: 290px;
@@ -98,7 +101,271 @@
     @media screen and (min-width:1200px) {
         width: 370px;
     }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .example-img-one {
+                background-image: url('../images/wed-site-2x.jpg');
+            }
+        }
 }
+
+.example-img-two {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-two {
+            background-image: url('../images/poster-2x.jpg');
+        }
+    }
+}
+
+.example-img-tree {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-tree {
+            background-image: url('../images/seafood-2x.jpg');
+        }
+    }
+}
+
+.example-img-four {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-four {
+            background-image: url('../images/project-prime-2x.jpg');
+        }
+    }
+}
+
+.example-img-five {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-five {
+            background-image: url('../images/project-boxes-2x.jpg');
+        }
+    }
+}
+
+.example-img-six {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-six {
+            background-image: url('../images/inspiration-2x.jpg');
+        }
+    }
+}
+
+.example-img-seven {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-seven {
+            background-image: url('../images/lime-time-2x.jpg');
+        }
+    }
+}
+
+.example-img-eight {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-eight {
+            background-image: url('../images/project-lab-2x.jpg');
+        }
+    }
+}
+
+.example-img-nine {
+    display: block;
+
+    @media screen and (min-width:320px) and (max-width:480px) {
+        width: 290px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        width: 450px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+        width: 354px;
+        gap: 30px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .example-img-nine {
+            background-image: url('../images/growing-2x.jpg');
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
 
 .box {
     @media screen and (min-width:320px) and (max-width:480px) {
