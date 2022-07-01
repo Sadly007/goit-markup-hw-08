@@ -112,6 +112,10 @@
     margin-right: auto;
     padding-left: 0px;
     padding-right: 0px;
+    @media screen and (min-width:320px) and (max-width:767px) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .footer-container {

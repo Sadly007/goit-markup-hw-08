@@ -5,19 +5,19 @@
   --primery-white-color: #FFFFFF;
 }
 
-img {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
   width: calc(100% - 30px);
 }
 @media screen and (min-width: 1200px) {
-  img {
+  .img {
     width: calc((100% - 30px) * 2);
   }
 }
 @media screen and (min-width: 1200px) {
-  img {
+  .img {
     width: calc((100% - 37px) * 4);
   }
 }
@@ -186,6 +186,11 @@ img {
 .page-header {
   background-color: var(--primery-white-color);
   outline: 1px solid #ECECEC;
+}
+@media screen and (min-width: 768px) {
+  .page-header {
+    height: 80px;
+  }
 }
 
 .current {
@@ -1287,24 +1292,32 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .menu-open-btn {
-    background-color: transparent;
-    border: 1px solid transparent;
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 40px;
-    height: 40px;
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+    padding: 0px;
+    margin: 0px;
   }
 }
 
-.modal-icon {
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 24px;
-  height: 16px;
-  position: absolute;
-  fill: black;
+.modal-btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .modal-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 16px;
+    position: absolute;
+    fill: black;
+  }
 }
 
 .container {
@@ -1435,6 +1448,16 @@ img {
   margin-right: auto;
   padding-left: 0px;
   padding-right: 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .footer-container {
