@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header class="page-header">
+    <header class="page-header ">
         <div class="header-container">
             <div class="header-nav">
                 <nav class="site-nav">
                     <a href="/" lang="en" class="first-header-link  link">Web<span
                         class="secondary-header-link link">Studio</span></a>
                     <ul class="header-list list">
-                        <li class="header-item"><a href="" class="current current-link link">Студия</a></li>
+                        <li class="header-item"><a href="index.html" class="current current-link link">Студия</a></li>
                         <li class="header-item"><a href="portfolio.html" class="header-link link">Портфолио</a></li>
                         <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
                     </ul>
@@ -47,8 +47,22 @@
                 </ul> 
             </div>
             <button type="button" class="modal-btn">
-                <img src="./images/modal-menu.svg" alt="" class="menu-open-btn">
+                <svg class="menu-open-btn">
+                    <use href="./images/symbol-defsss.svg#icon-menu" class="menu-open-btn"></use>
+                </svg>
             </button>
+        </div>
+        <div class="mob-menu">
+            <button type="button" class="modal-close-btn">
+                <svg class="menu-close-btn">
+                    <use href="./images/symbol-defsss.svg#icon-close-modal-menu" class="menu-close-btn"></use>
+                </svg>
+            </button>
+            <ul class="header-list list">
+                <li class="header-item"><a href="index.html" class="current current-link link">Студия</a></li>
+                <li class="header-item"><a href="portfolio.html" class="header-link link">Портфолио</a></li>
+                <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+            </ul>
         </div>
     </header>
     <main class="main">

@@ -187,6 +187,11 @@
   background-color: var(--primery-white-color);
   outline: 1px solid #ECECEC;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page-header {
+    padding-right: 15px;
+  }
+}
 @media screen and (min-width: 768px) {
   .page-header {
     height: 80px;
@@ -358,6 +363,15 @@
 .header-phone-info-link:focus {
   color: #2196F3;
   fill: var(--accent-text-color);
+}
+
+.mob-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
 }
 
 .hero {
@@ -1292,6 +1306,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .menu-open-btn {
+    width: 40px;
+    height: 40px;
     position: relative;
     display: block;
   }
@@ -1304,20 +1320,42 @@
   }
 }
 
-.modal-btn {
-  background-color: transparent;
+.menu-close-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.modal-close-btn {
+  width: 42px;
+  height: 42px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
   border: 1px solid transparent;
+  background-color: transparent;
+  outline: 1px solid tomato;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .modal-icon {
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 24px;
-    height: 16px;
-    position: absolute;
-    fill: black;
+  .modal-btn {
+    width: 42px;
+    height: 52px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border: 1px solid transparent;
+    background-color: transparent;
   }
+}
+@media screen and (min-width: 768px) {
+  .modal-btn {
+    display: none;
+  }
+}
+.modal-btn:hover .menu-open-btn, .modal-btn:focus .menu-open-btn {
+  fill: var(--accent-text-color);
 }
 
 .container {
