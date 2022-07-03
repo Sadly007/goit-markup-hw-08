@@ -46,23 +46,49 @@
                     </div>   
                 </ul> 
             </div>
-            <button type="button" class="modal-btn">
+            <button type="button" class="modal-open-btn">
                 <svg class="menu-open-btn">
                     <use href="./images/symbol-defsss.svg#icon-menu" class="menu-open-btn"></use>
                 </svg>
             </button>
         </div>
-        <div class="mob-menu">
+        <div class="mob-menu is-hidden">
+            <div class="menu-container">
             <button type="button" class="modal-close-btn">
                 <svg class="menu-close-btn">
                     <use href="./images/symbol-defsss.svg#icon-close-modal-menu" class="menu-close-btn"></use>
                 </svg>
             </button>
-            <ul class="header-list list">
-                <li class="header-item"><a href="index.html" class="current current-link link">Студия</a></li>
-                <li class="header-item"><a href="portfolio.html" class="header-link link">Портфолио</a></li>
-                <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+            <ul class="menu-list list">
+                <li class="menu-item ">
+                    <a href="index.html" class="current-menu link ">Студия</a>
+                </li>
+                <li class="menu-item"><a href="portfolio.html" class="menu-link link">Портфолио</a></li>
+                <li class="menu-item"><a href="" class="menu-link link">Контакты</a></li>
             </ul>
+            <ul class="menu-pe list">
+                <li class="menu-pe-item">
+                    <a href="tell:+380961111111" class="menu-phone link">+38 096 111 11 11</a>
+                </li>
+                <li class="menu-pe-item">
+                    <a href="mailto:info@devstudio.com" class="menu-email link">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="menu-soc list">
+                <li class="menu-soc-item">
+                    <a href="" class="menu-soc-link link">Instagram</a> 
+                </li>
+                <li class="menu-soc-item">
+                    <a href="" class="menu-soc-link link">Twitter</a> 
+                </li>
+                <li class="menu-soc-item">
+                    <a href="" class="menu-soc-link link">Facebook</a>
+                </li>
+                <li class="menu-soc-item">
+                    <a href="" class="menu-soc-link link">LinkedIn</a> 
+                </li>
+            </ul>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -491,7 +517,9 @@
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>
                         </span>
+                        <div class="modal-div">
                         Соглашаюсь с рассылкой и принимаю <span class="modal-span"><a href="/" class="check-link">Условия договора</a></span>
+                        </div>
                     </label>
                 </div>
             
@@ -500,5 +528,6 @@
         </div>
     </div>
     <script src="./js/modal.js"></script> 
+    <script src="./js/menu.js"></script>
 </body>
 </html>
