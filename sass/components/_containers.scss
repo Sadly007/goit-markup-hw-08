@@ -80,7 +80,7 @@
     border: 1px solid #EEEEEE;
     border-top: 0;
     @media screen and (min-width:320px) and (max-width:480px) {
-        width: 240px;
+        width: calc(100% - 50px);
         margin-left: auto;
         margin-right: auto;
     }
@@ -115,6 +115,9 @@
     @media screen and (min-width:320px) and (max-width:767px) {
         display: flex;
         justify-content: space-between;
+    }
+    @media screen and (min-width:1200px) {
+        width: 1170px;
     }
 }
 
@@ -202,6 +205,10 @@
 }
 
 .section {
+    @media screen and (min-width:320px) and (max-width:1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -267,6 +274,8 @@
     margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
+    padding-right: 15px;
+    padding-left: 15px;
     @media screen and (min-width:320px) and (max-width:1199px) {
         padding-top: 60px;
         padding-bottom: 60px;

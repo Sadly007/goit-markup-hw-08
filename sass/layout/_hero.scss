@@ -1,5 +1,11 @@
 
 .hero {
+    @media screen and (min-width:320px) and (max-width:1199px) {
+        padding-top: 118px;
+        padding-bottom: 118px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;

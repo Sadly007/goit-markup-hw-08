@@ -49,8 +49,12 @@
 }
 
 .example-item {
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
+    }
     @media screen and (min-width:320px) and (max-width:767px) {
         margin-bottom: 30px;
+        
         &:last-child {
             margin-bottom: 0px;
         }
@@ -86,8 +90,8 @@
 
 .example-img-one {
     display: block;
-    @media screen and (min-width:320px) and (max-width:480px){
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px){
+        width: 100%;
         gap: 30px;
     }
     @media screen and (min-width:480px) and (max-width:768px) {
@@ -113,8 +117,8 @@
 .example-img-two {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -144,8 +148,8 @@
 .example-img-tree {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -175,8 +179,8 @@
 .example-img-four {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -206,8 +210,8 @@
 .example-img-five {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -237,8 +241,8 @@
 .example-img-six {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -268,8 +272,8 @@
 .example-img-seven {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -299,8 +303,8 @@
 .example-img-eight {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -330,8 +334,8 @@
 .example-img-nine {
     display: block;
 
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
         gap: 30px;
     }
 
@@ -368,8 +372,8 @@
 
 
 .box {
-    @media screen and (min-width:320px) and (max-width:480px) {
-        width: 290px;
+    @media screen and (min-width:320px) and (max-width:479px) {
+        width: 100%;
     }
     @media screen and (min-width:480px) and (max-width:767px) {
         width: 450px;

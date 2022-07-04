@@ -4,6 +4,8 @@
     // padding-bottom: 94px;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
     @media screen and (min-width:1200px) {
         padding-bottom: 94px;
         padding-top: 94px;
@@ -77,9 +79,10 @@
         padding-right: 15px;
         padding-left: 15px;
     }
-    @media screen and(min-width:480px) and(max-width:768px) {
+    @media screen and(min-width:320px) and(max-width:767px) {
         text-align: center;
     }
+    
 }
 
 .qualities-bottom-text {
